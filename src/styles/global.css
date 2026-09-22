@@ -288,6 +288,17 @@ body {
   transform: scale(1);
 }
 
+@media (max-width: 639px) {
+  .scroll-animate-left,
+  .scroll-animate-right {
+    transform: translateY(32px);
+  }
+  .scroll-animate-left.is-visible,
+  .scroll-animate-right.is-visible {
+    transform: translateY(0);
+  }
+}
+
 /* ═══════════════════════════════════════════════════
    TYPOGRAPHY & ACCENT UTILITIES
    ═══════════════════════════════════════════════════ */

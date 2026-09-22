@@ -84,11 +84,11 @@
         <div class="lg:col-span-5 relative flex justify-center animate-scale-in delay-300">
 
           <!-- Floating Tech Accent Badges -->
-          <div class="absolute -top-6 -left-4 sm:-left-6 w-14 h-14 rounded-2xl bg-indigo-50/80 backdrop-blur-sm border border-indigo-200/80 shadow-md flex items-center justify-center text-3xl z-20 transition-all hover:scale-110 animate-float" style="animation-delay: 0s;">
+          <div class="absolute -top-5 left-0 sm:-left-6 w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-indigo-50/80 backdrop-blur-sm border border-indigo-200/80 shadow-md flex items-center justify-center text-2xl sm:text-3xl z-20 transition-all hover:scale-110 animate-float" style="animation-delay: 0s;">
             <i class="devicon-go-plain colored"></i>
           </div>
 
-          <div class="absolute -bottom-6 -right-2 sm:-right-4 w-14 h-14 rounded-2xl bg-sky-50/80 backdrop-blur-sm border border-sky-200/80 shadow-md flex items-center justify-center text-3xl z-20 transition-all hover:scale-110 animate-float" style="animation-delay: 1s;">
+          <div class="absolute -bottom-5 right-0 sm:-right-4 w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-sky-50/80 backdrop-blur-sm border border-sky-200/80 shadow-md flex items-center justify-center text-2xl sm:text-3xl z-20 transition-all hover:scale-110 animate-float" style="animation-delay: 1s;">
             <i class="devicon-vuejs-plain colored"></i>
           </div>
 

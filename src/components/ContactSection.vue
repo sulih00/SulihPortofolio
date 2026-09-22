@@ -18,7 +18,7 @@
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 max-w-5xl mx-auto">
         
         <!-- Left Contact Info Cards -->
-        <div class="lg:col-span-5 space-y-6">
+        <div class="lg:col-span-5 space-y-6 order-2 lg:order-1">
           
           <!-- Email Card -->
           <div class="glass-card p-6 flex flex-col justify-between bg-white/85 backdrop-blur-sm border-slate-200 shadow-sm scroll-animate" style="transition-delay: 100ms;">
@@ -82,7 +82,7 @@
         </div>
 
         <!-- Right Interactive Form Column -->
-        <div class="lg:col-span-7 scroll-animate" style="transition-delay: 150ms;">
+        <div class="lg:col-span-7 scroll-animate order-1 lg:order-2" style="transition-delay: 150ms;">
           <div class="glass-card p-6 sm:p-8 bg-white/85 backdrop-blur-sm border-slate-200 shadow-sm">
             <h3 class="text-xl font-bold text-slate-900 mb-2">Kirim Pesan Langsung</h3>
             <p class="text-xs text-slate-500 mb-6">Isi formulir di bawah ini untuk mengirim pesan singkat.</p>

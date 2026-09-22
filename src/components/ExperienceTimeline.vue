@@ -19,7 +19,7 @@
       <div class="max-w-4xl mx-auto relative">
         <!-- Vertical Timeline Line — animated grow -->
         <div 
-          class="absolute left-4 sm:left-1/2 top-0 bottom-0 w-0.5 -translate-x-1/2 hidden sm:block origin-top"
+          class="absolute left-4 sm:left-1/2 top-0 bottom-0 w-0.5 -translate-x-1/2 block origin-top"
           :class="timelineVisible ? 'bg-gradient-to-b from-indigo-600 via-purple-400 to-indigo-300' : 'bg-slate-200'"
           :style="{ 
             transform: `translateX(-50%) scaleY(${timelineProgress})`, 
@@ -35,8 +35,8 @@
             :key="exp.id"
             class="relative flex flex-col sm:flex-row items-start group"
             :class="[
-              index % 2 === 0 ? 'sm:flex-row-reverse' : '',
-              index % 2 === 0 ? 'scroll-animate-right' : 'scroll-animate-left'
+              index % 2 === 1 ? 'sm:flex-row-reverse' : '',
+              index % 2 === 0 ? 'scroll-animate-left' : 'scroll-animate-right'
             ]"
             :style="{ transitionDelay: `${index * 150}ms` }"
           >
