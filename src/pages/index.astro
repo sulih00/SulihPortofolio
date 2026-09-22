@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.vue';
+import Hero from '../components/Hero.vue';
+import ProjectGallery from '../components/ProjectGallery.vue';
+import ExperienceTimeline from '../components/ExperienceTimeline.vue';
+import CertificatesGrid from '../components/CertificatesGrid.vue';
+import ContactSection from '../components/ContactSection.vue';
+import Footer from '../components/Footer.vue';
+---
+
+<Layout title="Sulih - Full Stack Developer Portfolio">
+  <Navbar client:load />
+
+  <main class="relative z-10">
+    <Hero client:load />
+    <ProjectGallery client:load />
+    <ExperienceTimeline client:visible />
+    <CertificatesGrid client:visible />
+    <ContactSection client:load />
+  </main>
+
+
+
+
+
+  <Footer client:visible />
+</Layout>
